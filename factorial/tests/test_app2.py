@@ -1,7 +1,6 @@
 import unittest
 
 import sys
-# sys.path.append("app")
 from app.factorial import factorial
 
 class MoreMathTestCase(unittest.TestCase):
@@ -18,5 +17,3 @@ class MoreMathTestCase(unittest.TestCase):
     	"""
     	self.assertEqual(factorial(24), 620448401733239439360000)
 
-# if __name__ == '__main__':
-#     unittest.main()

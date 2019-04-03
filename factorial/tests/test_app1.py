@@ -31,5 +31,5 @@ class MathTestCase(unittest.TestCase):
         self.assertTrue(factorial(6) == 720)
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
