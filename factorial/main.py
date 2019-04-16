@@ -1,7 +1,7 @@
 from app.factorial import factorial
 
 def fact1To25() -> None:
-    for i in range(0, 26):
+    for i in range(0, 101):
         print('fact(', i, ')=', factorial(i))
 
 
