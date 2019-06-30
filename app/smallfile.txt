@@ -1,0 +1,5 @@
+This is a text
+which is 5 lines long
+Here is line 3
+And the fourth line
+Last line: no. 5
