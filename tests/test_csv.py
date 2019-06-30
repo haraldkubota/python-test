@@ -12,8 +12,8 @@ class SomeCSVTestCase(unittest.TestCase):
         data = readCSV('tests/test.csv')
         index = data.count().keys()
         self.assertEqual(len(index), 3)
-        self.assertEquals(index[0], 'animal')
-        self.assertEquals(index[1], 'uniq_id')
-        self.assertEquals(index[2], 'water_need')
+        self.assertEqual(index[0], 'animal')
+        self.assertEqual(index[1], 'uniq_id')
+        self.assertEqual(index[2], 'water_need')
 
 
